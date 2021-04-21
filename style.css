@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+section {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url(midia/pexels-pixabay-269583.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.form-container {
+    position: absolute;
+    background: white;
+    left: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: transparent;
+    background: rgba(0, 0, 0, 0.7);
+    width: 350px;
+    padding: 45px 25px;
+    border-radius: 55px 10px 55px 10px;
+    text-align: center;
+}
+
+.title {
+    font-size: 1.6em;
+    margin-bottom: 1.5em;
+}
+
+.form input {
+    width: 100%;
+    margin-bottom: 8px;
+    height: 34px;
+    border: transparent;
+    border-radius: 5px 5px 25px 5px;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+.form input:hover {
+    background: rgba(0, 0, 0, 2);
+    transition: 0.5s;
+}
+
+.login-input input {
+    margin: 15px auto;
+    height: 35px;
+    width: 50%;
+    border-radius: 25px 5px 25px 5px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    cursor: pointer;
+}
+
+.login-input input:hover {
+    background: rgba(0, 0, 0, 2);
+    transition: 0.5s;
+}
+
+.list-social-media {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.list-social-media a {
+    margin: 10px 15px;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.9);
+    height: 30px;
+    width: 30px;
+    padding-top: 5px;
+}
+
+.list-social-media a:hover {
+    background: rgba(255, 255, 255, 0.767);
+    color: black;
+    transition: 0.5s;
+}
+
+a {
+    color: white;
+}
